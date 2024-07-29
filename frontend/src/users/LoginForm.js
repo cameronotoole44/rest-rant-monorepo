@@ -1,6 +1,6 @@
-import { useContext, useState } from "react";
-import { useHistory } from "react-router";
-import { CurrentUser } from "../contexts/CurrentUser";
+import { useContext, useState } from "react"
+import { useHistory } from "react-router"
+import { CurrentUser } from "../contexts/CurrentUser"
 
 function LoginForm() {
 
@@ -78,6 +78,6 @@ function LoginForm() {
             </form>
         </main>
     )
-};
+}
 
-export default LoginForm;
+export default LoginForm
