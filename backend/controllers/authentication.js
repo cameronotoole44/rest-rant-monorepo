@@ -17,7 +17,7 @@ router.post('/', async (req, res) => {
         const result = await jwt.encode(process.env.JWT_SECRET, { id: user.userId })
         res.json({ user: user, token: result.value })
     }
-})
+});
 
 router.get('/profile', async (req, res) => {
     res.json(req.currentUser)
